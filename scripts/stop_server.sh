@@ -1,4 +1,4 @@
 #!/bin/bash
-service nginx stop
-cd /home/frontend/src/
+systemctl stop nginx
+cd /home/frontend/
 npm stop
