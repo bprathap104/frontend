@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /src/
     destination: /home/frontend/src/
+  - source: /package.json
+    destination: /home/frontend/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
