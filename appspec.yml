@@ -3,8 +3,10 @@ os: linux
 files:
   - source: /src/
     destination: /home/frontend/src/
+    overwrite: true
   - source: /package.json
     destination: /home/frontend/
+    overwrite: true
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
