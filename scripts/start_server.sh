@@ -2,5 +2,5 @@
 cd /home/frontend/
 npm install
 npm run build
-npm start
+npm start src/App.js
 systemctl start nginx
